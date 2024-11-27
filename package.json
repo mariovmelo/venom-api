@@ -1,0 +1,23 @@
+{
+  "name": "venom-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "uuid": "^11.0.3",
+    "venom-bot": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "type": "module"
+}
